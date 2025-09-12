@@ -26,7 +26,7 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div className="carousel-container bg-dark">
+    <div className="carousel-container bg-dark ">
       <h1 style={{ textAlign: "center", color: "white" }} className="pb-5">
         Featured Products
       </h1>
