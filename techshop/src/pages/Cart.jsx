@@ -33,7 +33,7 @@ const Cart = () => {
                 <FaArrowLeftLong / >
                 Continue Shopping
               </button>
-            </Link>
+            </Link >
           </div>
         </div>
       ) : (
