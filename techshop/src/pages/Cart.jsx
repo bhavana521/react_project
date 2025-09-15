@@ -28,7 +28,7 @@ const Cart = () => {
             Your cart is empty
           </h1>
           <div className="w-full flex justify-center mt-4 ghhh htijhdfiohj">
-            <Link to="/Allproduct" className="qpqp" >
+            <Link to="/Allproduct" className="qpqp"  hghjhbbvbh>
               <button className="bg-red-500 border rounded-4 text-4xl flex text-white fonbol items-center gap-5 font-bold py-4 px-8">
                 <FaArrowLeftLong />
                 Continue Shopping
