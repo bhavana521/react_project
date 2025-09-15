@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const Carousel = () => {
   const trackRef = useRef(null);
 
-  // Carousel logic
+  
   useEffect(() => {
     const track = trackRef.current;
     let items = Array.from(track.children);
@@ -19,7 +19,7 @@ const Carousel = () => {
       const first = items.shift();
       items.push(first);
       track.innerHTML = ""; // Clear track
-      items.forEach(item => track.appendChild(item)); // Append reordered items
+      items.forEach(item => track.appendChild(item)); 
     }, 2000);
 
     return () => clearInterval(interval);
@@ -27,15 +27,15 @@ const Carousel = () => {
 
   return (
     <div className="carousel-container bg-dark ">
-      <h1 style={{ textAlign: "center ", color: "white" }} className="pb-5">
+      <h1 style={{ textAlign: "center", color: "white" }} className="pb-5">
         Featured Products
       </h1>
-      <div className="carousel-track" ref={trackRef}>
+      <div className="carousel-track " ref={trackRef}>
         <div className="carousel-item-custom">
           
           <p className="product_font_carousel">JBL Tune 760NC</p>
           <Link to="/Allproduct">
-          <img src={firstSlider} alt="1" className="img-fluid" />
+          <img src={firstSlider} alt="1" className="img-fluid" / >
           </Link>
           <h4 className="product_font_head">
             ₹5,999 <span className="text-muted muteddd"><s >₹7,999</s></span>

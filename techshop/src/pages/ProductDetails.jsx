@@ -16,7 +16,7 @@ const ProductDetails = () => {
     const { data } = useContext(globalContext); // Get all products from context
     const dispatch = useDispatch();
     const [activeTab, setActiveTab] = useState(null);
-    // Sample reviews data
+    
     const reviews = [
         {
             id: 1,
