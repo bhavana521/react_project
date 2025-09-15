@@ -22,7 +22,7 @@ const Cart = () => {
         <div>
           <div className="textttt">
             {/* <i className="fa-sharp fa-solid fa-cart-xmark lllttr" style={{color: "#e60a0a"}}></i> */}
-            <BsCartX className="gjhjgf " />
+            <BsCartX className="gjhjgff " />
           </div>
           <h1 className="text-center text-white text-4xl font-bold pt-18 fhfh" name>
             Your cart is empty
